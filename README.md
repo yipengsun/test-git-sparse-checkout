@@ -33,5 +33,11 @@ Now, say you want to add a new file `stuff.txt` in `folder1`:
     git add --sparse folder1/stuff.txt
     ```
 
+5. However, after you do a `git pull`, `folder1/stuff.txt` will vanish.
+
+    - If `stuff.txt` is actually a folder, you can tell git to keep it with
+      `git sparse-checkout add stuff.txt` and `git sparse-checkout reapply`.
+    - Otherwise, force adding it will make **ALL** files under `folder1` available.
+
 
 Above is tested with `git version 2.38.4`.
