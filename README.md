@@ -20,7 +20,7 @@ Now, say you want to add a new file `stuff.txt` in `folder1`:
     The following paths and/or pathspecs matched paths that exist
     outside of your sparse-checkout definition, so will not be
     updated in the index:
-    folder1/blank
+    folder1/stuff.txt
     hint: If you intend to update such entries, try one of the following:
     hint: * Use the --sparse option.
     hint: * Disable or modify the sparsity rules.
