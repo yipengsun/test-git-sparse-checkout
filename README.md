@@ -1,4 +1,4 @@
-# test-git-spare-checkout
+# test-git-sparse-checkout
 
 First do the following
 
