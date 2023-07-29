@@ -3,9 +3,10 @@
 First do the following
 
 1. Clone this repo with `git clone --filter=blob:none --no-checkout`
-2. `git sparse-checkout add --sparse README.md`
-3. `git sparse-checkout reapply`
-4. `git checkout`
+2. `git sparse-checkout init`
+3. `git sparse-checkout add README.md`
+4. `git sparse-checkout reapply`
+5. `git checkout`
 
 Now there should be just a single `README.md` in project root.
 
